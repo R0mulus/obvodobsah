@@ -1,0 +1,48 @@
+hmtl, body{
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    margin: 0 auto;
+    border: solid 1px cadetblue;
+    border-collapse: collapse;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+th,td {
+    text-align: right;
+    padding: 3px 5px;
+    border: 1px solid black;
+}
+.btn-align-left {
+    text-align: left;
+}
+
+.divErrorMsg{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}

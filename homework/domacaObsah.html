@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework Jozef Balint</title>
+
+    <link rel="stylesheet" href="domacaCSS.css">
+
+    <script src="domaca.js"></script>
+
+</head>
+<body>
+    <h1>
+       Circumference and Area of rectangle calculator
+    </h1>
+    <form action="">
+
+        <table>
+
+            <tr>
+                <th>
+                    a =
+                </th>
+                <td id="tdA">
+                    <input type="number" placeholder="side a" id="sideA">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    b =
+                </th>
+                <td id="tdB">
+                    <input type="number" placeholder="side b" id="sideB">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Circumference =
+                </th>
+                <td>
+                    <input type="text" disabled id="circumference">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Area =
+                </th>
+                <td>
+                    <input type="text" disabled id="area">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Circumference" name="Calculate-circumference" onclick="calculateCircumference()" >
+                </td>
+                <td class="btn-align-left">
+                    <input type="button" value="Area" name="Calculate-area" onclick="calculateArea()">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
